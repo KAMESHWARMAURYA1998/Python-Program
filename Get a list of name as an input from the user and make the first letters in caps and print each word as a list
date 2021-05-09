@@ -1,0 +1,12 @@
+userList = []
+print("How many User name yuu want in the list :")
+len = int(input())
+print("Enter the User Name in the list :")
+
+for i in range(0,len):
+    element = input()
+    userList.append(element)
+
+
+userList = [user.capitalize() for user in userList]
+print(userList)
