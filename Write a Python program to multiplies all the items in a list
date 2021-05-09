@@ -1,0 +1,9 @@
+list1 = []
+mul=1
+n = int(input("Number Of list :"))
+for i in range(n):
+    e = int(input())
+    list1.append(e)
+for j in list1:
+    mul = mul*j
+print(mul)
